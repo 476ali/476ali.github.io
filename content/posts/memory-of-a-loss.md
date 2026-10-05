@@ -1,5 +1,5 @@
 ---
-date: '2026-09-19T22:51:22+05:30'
+date: '2026-10-05T22:51:22+05:30'
 title: 'Memory of a Loss'
 private: true
 draft: true
