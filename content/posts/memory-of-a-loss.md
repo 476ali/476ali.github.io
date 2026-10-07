@@ -2,7 +2,6 @@
 date: '2026-10-05T22:51:22+05:30'
 title: 'Memory of a Loss'
 private: true
-draft: true
 ---
 
 Isn’t never having had a dearest something the same disposition as having a something?
@@ -23,4 +22,3 @@ of regret is not a lack of contentment but a faint image of how the rays of life
 laid, growing ever in vigour and detail. They aren’t undesirable appendages of living to
 be incised away but a constitutive part of it as how a pendulum that swings forth must
 swing back.
-
