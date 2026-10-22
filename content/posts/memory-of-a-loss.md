@@ -18,7 +18,7 @@ perhaps realizes the nature of life itself. To have loved is to have been hurt; 
 lived is to have had regrets; this we all in due time must realize: whilst this may be so
 hurt and regret don’t entail the necessity for self-condemnation nor rectification, for
 all that one knows the residue of hurt is not a scab but a callous skin and the residue
-of regret is not a lack of contentment but a faint image of how the rays of life are
+of regret is not a lack of contentment but a faint image of how the ways of life are
 laid, growing ever in vigour and detail. They aren’t undesirable appendages of living to
 be incised away but a constitutive part of it as how a pendulum that swings forth must
 swing back.
