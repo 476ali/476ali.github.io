@@ -1,5 +1,6 @@
 ---
-date: '2026-11-03T10:14:38+05:30'
+date: '2026-11-02T10:14:38+05:30'
+lastmod: '2026-11-03T18:27:00+05:30'
 title: 'Lenses of Victories and Defeats'
 private: true
 math: true
@@ -14,8 +15,8 @@ utilitarianism, pragmatism, and aspects of normative ethics. Perhaps we ought to
 about that.
 
 Consider a revolt against an established system, a stronghold (in apt senses), for a
-cause just and urgent. We are David against Goliath. The odds are laid against us, we
-are on low ground. It begs us to withdraw, to cower, any reasonable would do the same.
+cause just and urgent. We are David against Goliath. The odds are laid against us, we are
+on low ground. It begs us to withdraw, to cower, any reasonable man would do the same.
 
 Yet, you see, what is this *reasonable*? What stands to reason? For us to even posit that
 if $x \implies y$ and $y = \bot$, then it must that $x = \top$, to argue modus
@@ -28,16 +29,19 @@ axiomatic, and we must always be wary of the axioms we have deemed tolerable.
 If we have deemed it tolerable to be on the winning side all the time: we have sold our
 ideals to societally-imbued utilities for cheap. Perhaps, as correctly supposed, this is
 utilitarianism in short. Although, it is often stated as that which produces the most
-happiness (read utility) is the best decision, I believe it to be the most dangerous.
-Why? Firstly because all simple rules such as this are bound be broken disastrously when
-applied to the actual world, and sometimes yield diametric results. This aspect of
-utilitarianism has been recounted countless times throughout history.
+happiness (read utility) is the best course of action, I believe it to be the most
+dangerous. Why? Firstly because all simple rules such as this are bound to be broken,
+more exactly shattered, when applied to the actual world, and sometimes yield diametric
+results. This aspect of utilitarianism has been recounted countless times throughout
+history; it won’t do anything more if I prattle on about it.
 
-A budding child must never be taught utilitarianism.
+But I’ll lay here quietly an opinionated warning (for the paranoid and heedful): a
+budding child must never be taught utilitarianism.
 
-Deontology describes a class of ethical frameworks (like Kantianism) and pragmatism
+Deontology describes a class of ethical frameworks (like Kantianism) whereas pragmatism
 regards more of ontology and truth. Well, I’ll try to make sense of that as shortly as I
-can.
+can, but I’d say these must be individually and separately learnt and thought upon. Still
+I’ll try.
 
 An ethics that is deontological is by definition non-consequentialist. We’re more
 concerned about the nature of our actions than its result. Our actions are categorical
@@ -54,3 +58,9 @@ Isn’t such a victory assured in further inspection a defeat on our part? What 
 right, and conscientious doesn’t have to necessarily win, doesn’t need to have an
 immediate utility, doesn’t need to be *reasonable*, because all of these are
 arbitrariness anchored by axioms tolerable, no more and no less.
+
+That’s what I hope you’d take away from this hodgepodge of terms: everything is
+arbitrary, anchored by axioms, ones that we’ve deemed tolerable; to question and be
+critical of the sources of all convention, tradition, facts, science, common sense, and
+all your thoughts and your raison d’être and the curtains that facilitate your joie de
+vivre.
