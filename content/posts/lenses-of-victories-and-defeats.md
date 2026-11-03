@@ -1,6 +1,6 @@
 ---
 date: '2026-11-02T10:14:38+05:30'
-lastmod: '2026-11-03T18:27:00+05:30'
+lastmod: '2026-11-03T10:27:00+05:30'
 title: 'Lenses of Victories and Defeats'
 private: true
 math: true
