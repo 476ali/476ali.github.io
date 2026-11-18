@@ -106,17 +106,17 @@
     font-weight: inherit;
     font-size: 1em;
     letter-spacing: inherit;
-    text-align: center;
+    text-align: left;
   }
 
   h1.text-title {
     font-family: var(--primary-text-typeface), var(--secondary-text-typeface), serif;
-    font-weight: 600;
+    font-weight: 900;
     color: var(--fg-color);
     font-size: 1.2em;
     padding-bottom: 1.5rem;
     letter-spacing: -1.0pt;
-    word-spacing: 2pt;
+    word-spacing: 6pt;
   }
 
   @media (min-width: 768px) {
@@ -170,11 +170,26 @@
   }
 
   article.post, article.page {
-   padding-top: 2rem;
-   padding-left: 1rem;
-   padding-right: 1rem;
-   padding-bottom: 2rem;
-   margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 2rem;
+
+    text-align: justify;
+    text-wrap: pretty;
+  }
+
+  .post-body p {
+    text-align-last: justify;
+  }
+
+
+  @media (min-width: 768px) {
+    article.post, article.page {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
   }
 
   article.post {
@@ -182,8 +197,7 @@
   }
 
   #search-results article.post {
-   padding-top: 0rem;
-   padding-bottom: 0rem;
+    padding: 0;
   }
 
 
@@ -220,7 +234,7 @@
     font-weight: inherit !important;
     font-style: normal !important;
     color: var(--demure-color);
-    text-align: center;
+    text-align: left;
   }
 
   span.post-meta {
@@ -234,7 +248,7 @@
     font-family: var(--primary-text-typeface), var(--secondary-text-typeface), serif;
     letter-spacing: inherit;
     font-weight: inherit;
-    font-style: normal;
+    font-style: italic;
     font-size: 1em !important;
     color: var(--demure-color);
   }
@@ -617,10 +631,14 @@
 
   .extended-posts-view-link {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin-bottom: 2em;
     font-family: var(--text-sc-typeface);
     text-transform: uppercase;
+  }
+
+  .publication-item {
+    margin: 0.25rem 0;
   }
 
 

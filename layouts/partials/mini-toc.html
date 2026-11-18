@@ -14,17 +14,18 @@
     <div class="toc" role="navigation">
         <!-- <h2>{{ i18n "latest_publications" }}</h2> -->
         <br>
-        <ul class="texts" style="list-style: none;">
+        <div class="texts" style="list-style: none; padding: 0 1rem;">
             {{/* Range through the first $maxPosts items of the $section */}}
             {{ range (first $maxPosts $section) }}
-                <li class="text-title">
+                <span class="text-title">
                     {{ partial "post-toc-summary" . }}
-                </li>
+                </span>
+                &emsp;
             {{ end }}
+        </div>
         <br>
         <a href="/publications">
           <span class="nav-item">{{ i18n "all_posts" | default "All" }}</span>
         </a>
-        </ul>
     </div>
 {{ end }}

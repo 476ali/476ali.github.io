@@ -18,13 +18,14 @@
           <div style="display: flex; align-items: center;">
             <span>{{ .Key }}</span>&nbsp;<hr style="flex-grow: 1; margin: 0;">
           </div>
-          <ol class="publications-list" style="list-style: none; padding-left: 0">
+          <div class="publications-list">
             {{ range .Pages }}
-                <li class="publication-item">
+                &ensp;
+                <span class="publication-item">
                   <span>
                     <a href="{{ .Permalink }}">{{ .Title }}</a>
                   </span>
-                  <span>·</span>
+                  <!-- <span>·</span> -->
                   <span class="publication-date">
                       {{ if .Date }}
                         {{ .Date.Format site.Params.dateFormat }}
@@ -32,9 +33,10 @@
                         <span style="color: #888888; font-style: italic;">No Date</span>
                       {{ end }}
                   </span>
-                </li>
+                </span>
+                &emsp;
             {{ end }}
-          </ol>
+          </div>
         {{ end }}
       </div>
     </article>

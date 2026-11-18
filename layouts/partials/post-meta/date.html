@@ -1,21 +1,22 @@
 {{ $date := .Date | time.Format (site.Params.dateFormat | default "Jan 02, 2006 at 15:04") }}
 {{ $lastmod := .Lastmod | time.Format (site.Params.dateFormat | default "January 02, 2006") }}
 
+{{/* Check that lastmod exists and is greater than date
+    (i.e. the last modified date must be after the publish date) */}}
+{{ if (.Params.showdate | default true) }}
+  {{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
+      <!-- <span>·</span> -->
+      {{ i18n "updated_on" }}
+      <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+          {{ $lastmod }}
+      </time>
+      <br>
+  {{ end }}
+{{ end }}
+
 {{ if (.Params.showdate | default true) }}
   {{ i18n "published_on" }}
   <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" class="pub-datetime">
       {{ $date }}
   </time>
-{{ end }}
-
-{{/* Check that lastmod exists and is greater than date
-    (i.e. the last modified date must be after the publish date) */}}
-{{ if (.Params.showdate | default true) }}
-  {{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
-      <span>·</span>
-      {{ i18n "updated_on" }}
-      <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
-          {{ $lastmod }}
-      </time>
-  {{ end }}
 {{ end }}
