@@ -134,6 +134,7 @@
       "theme-base-red",
       "toc",
       "top-of-site-link",
+      "website-name",
       "wrap"
     ],
     "ids": [
@@ -168,7 +169,8 @@
       "tathatā-is-not-noumenon",
       "thereby-meeting-the-absurd",
       "top-of-site",
-      "top-of-site-anchor"
+      "top-of-site-anchor",
+      "website-name"
     ]
   }
 }
