@@ -49,9 +49,9 @@
 
 
   html {
-    --fg-color: #f4d03f;
+    --fg-color: #7851a9;
     /* --bg-color: #f8f5db; */
-    --bg-color: #000000;
+    --bg-color: #fcfcfc;
     /* --theme-color: #9f4846; */
     /* --theme-color: #478800; */
     --theme-color: #777777;
@@ -192,34 +192,12 @@
     }
   }
 
-  article.post {
-   background-color: var(--bg-color);
+  article.post, article.page {
+   background-color: rgb(from var(--bg-color) r g b / 0.5);
   }
 
   #search-results article.post {
     padding: 0;
-  }
-
-
-
-  .decor-columns {
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr;
-    max-width: 38rem;
-    margin: auto;
-  }
-
-  .decor-columns img {
-    max-height: 14rem;
-  }
-
-  .decor-columns .left {
-    margin-right: 14vw;
-  }
-  
-  .decor-columns .right {
-    margin-left: 14vw;
   }
 
 
